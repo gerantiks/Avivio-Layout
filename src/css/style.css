@@ -24,13 +24,11 @@ button {
 
 }
 a {
-    text-decoration: none;
     color: #292929;
 }
 .header_nav{
     width: 100%;
     height: 85px;
-    margin: 0;
     font-size: 20px;
     font-weight: 500px;
    
@@ -39,10 +37,8 @@ a {
 .header_list{
     display:inline-block;
     width: 40%;
-    list-style-type: none;
-    margin: 0;
-    padding-left: 0;
     text-align: start;
+    
     
 }
 
@@ -59,7 +55,7 @@ a {
         color: #01996D;
         transition: 0.3s;
 }
-h1{
+h1 {
     margin: 0;
     font-family: 'Georgia';
     font-style: normal;
@@ -95,7 +91,8 @@ h1{
 .header_part2_context {
     width: 440px;
     height: 366px;
-    padding: 175px 0px 0px 182px;
+    margin-left: 175px;
+    padding-top: 182px;
     
 }
 
