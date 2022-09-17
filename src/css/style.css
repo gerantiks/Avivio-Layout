@@ -1,9 +1,23 @@
-body{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+body {
+    font-size: 20px;
     font-family: Lato, sans-serif;
 
+}
+
+.container {
+    position: relative;
+    width: 1400px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+h1 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    color: #01996D;
 }
 
 button {
@@ -17,95 +31,96 @@ button {
     color: #FFFFFF;
 }
 
-.header{
-    width: 100%;
-    height: 980px;
-    text-align: justify;
-
-}
 a {
     color: #292929;
 }
-.header_nav{
-    width: 100%;
-    height: 85px;
+
+.header {
+    border-bottom: 1px solid #D6D6D6;
+}
+
+.header-logo {
+    display: inline-block;
+    margin-right: 172px;
+}
+
+.header-nav {
+    display: inline-block;
     font-size: 20px;
     font-weight: 500px;
-   
+    align-items: center; 
 }
 
-.header_list{
-    display:inline-block;
-    width: 40%;
-    text-align: start;
-    
-    
-}
-
-.header_list li{
+.header-nav li{
     display:inline-block;
     margin-right: 72px;
 }
 
-.header_list a:hover{
-    color:#01996D;
-    transition: 0.3s;
+.header-nav li:last-child {
+    margin-right: 0px;
 }
-.header_right-elements a:hover {
-        color: #01996D;
-        transition: 0.3s;
-}
-h1 {
-    margin: 0;
-    font-family: 'Georgia';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 65px;
+
+.header-nav a:hover {
     color: #01996D;
+    transition: 0.25s;
 }
 
-.header_logo{
+.header-login {
+    padding-top: 15px;
+    padding-bottom: 15px;
     display: inline-block;
-    width: 30%;
-    text-align: center;
-    margin-top: 28px;
+    margin-left: 255px; 
 }
 
-.header_right-elements {
-    display: inline-block;
-    width: 29%;
-    text-align: center;
-
-}
-.header_sign {
+.header-login a {
     margin-right: 35px;
 }
-
-.header_part2{
-    background-image: url(../img/Img/BG.jpg);
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    height: 885px;
+.header-login a:hover{
+    color: #01996D;
+    transition: 0.25s;
 }
 
-.header_part2_context {
-    width: 440px;
-    height: 366px;
-    margin-left: 175px;
-    padding-top: 182px;
+
+.home {
+    position: relative;
+    min-height: 885px;
     
 }
 
-.header_part2_context p {
-    color: #484848;
-    line-height: 31px;
-    margin: 30px 0px 0px 0px;
-    font-size: 20px;
+.home-content {
+    position: absolute;
+    width: 440px;
+    height: 366px;
+    padding-top: 182px;   
 }
 
-.header_part2 button{
-    margin-top: 55px;
+.home-content h1{
+    max-width: 410px;
+}
+
+.home-content p{
+    max-width: 410px;
+    margin-top: 30px;
+    color: #484848;
+    line-height: 31px;
+}
+.home-content button{
+    margin-top: 54px;
+}
+.home-button {
     width: 227px;
     height: 65px;
-
+}
+.home-background {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.home-background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
