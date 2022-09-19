@@ -11,12 +11,25 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 }
+.container-mini{
+    width: 180px;
+    margin: 0 auto;
+    
+}
 
 h1 {
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
+    color: #01996D;
+}
+h2 {
+    font-family: Georgia;
+    width: 584px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 157%;
     color: #01996D;
 }
 
@@ -28,6 +41,9 @@ button {
     border-radius: 4px;
     font-weight: 400;
     font-size: 20px;
+    color: #FFFFFF;
+}
+.white-head{
     color: #FFFFFF;
 }
 
@@ -140,16 +156,11 @@ a {
     font-size: 24px;
     line-height: 157%
 }
-.content-menu h2 {
+.content-menu-headline{
     display: inline-block;
     vertical-align: top;
-    font-family: Georgia;
-    width: 584px;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 157%;
-    color:#01996D;
-}
+} 
+
 .content-menu-text {
     display: inline-block;
     margin-top: 20px;
@@ -167,9 +178,6 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 98px;
-    
-}
-.content-steps-namber{
     
 }
 
@@ -232,4 +240,138 @@ a {
     width: 100%;
     height: auto;
     object-fit: cover;
+}
+
+.story {
+    background-color: #245852;
+}
+.story-content {
+    display: flex;
+    padding-top: 229px;
+    padding-bottom: 170px;
+    align-items: center;
+}
+.story-content-text{
+    width: 580px;
+    min-height: 352px;
+
+}
+.white-text {
+    padding-top: 55px;
+    padding-bottom: 57px;
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 157%;
+    color: #FFFFFF;
+}
+.story-btn{
+    width: 240px;
+    height: 65px;
+}
+
+.story-content-video{
+    padding-left: 50px;
+    
+}
+.story-content-video iframe {
+    border-radius: 16px;
+}
+
+.product-content {
+    display: grid;
+    grid-column-gap: 85px;
+    padding-top: 124px;
+    padding-bottom: 170px;
+    grid-template-columns: 1fr 1fr;
+}
+.product-content-photo{ 
+    width: 639px;
+    height: 573px;
+    background-color: #01996D33;
+    border-radius: 18px;
+}
+
+.product-content-minilist {
+    position: absolute;
+    bottom: 110px;
+    left: -60px;
+    width: 296px;
+    height:280px;
+    border-radius: 8px;
+    border: 1px solid #D6D6D6;
+    background-color: #FFFFFF;
+}
+.product-content-minitext {
+    margin-top: 22px;
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 14.49px;
+    line-height: 157%;
+    text-align: center;
+    color: #000000;
+}
+.line {
+    width: 111px;
+    padding-top: 13px;
+    margin: 0 auto;
+    border-bottom: 1px solid #000000;
+}
+.product-content-minilist img{
+    margin-top: 14px;
+}
+.product-content-photo-text {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 11.5px;
+    line-height: 157%;
+    text-align: start;
+    color: #000000;
+}
+.product-content-photo-text p{
+    padding-top: 10px;
+    text-align: center;
+}
+.product-content-photo-text h3{
+    font-family: 'Georgia';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 157%;
+    padding-bottom: 15px;
+}
+.product-content li {
+    display: list-item;
+    list-style: disc;
+    list-style-position: inside;
+    padding-bottom: 15px;
+}
+.product-content-photo img {
+    z-index: -1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-content-text-item {
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 157%;
+    color: #424242;
+    margin-bottom: 30px;
+}
+.product-content-text-describer {
+    max-width: 530px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.product-btn {
+    font-family: 'Lato';
+    width: 227px;
+    height: 65px;
 }
