@@ -43,12 +43,16 @@ button {
     font-size: 20px;
     color: #FFFFFF;
 }
-.white-head{
-    color: #FFFFFF;
+button:hover {
+    transition: 0.2s;
+    box-shadow: 5px 5px 5px rgba(1, 153, 109, 0.4);
+    background-image: linear-gradient( bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+
 }
 
 a {
     color: #292929;
+
 }
 
 .header {
@@ -256,7 +260,10 @@ a {
     min-height: 352px;
 
 }
-.white-text {
+.story-head{
+    color: #FFFFFF;
+}
+.story-text {
     padding-top: 55px;
     padding-bottom: 57px;
     font-family: 'Lato';
@@ -281,8 +288,7 @@ a {
 .product-content {
     display: grid;
     grid-column-gap: 85px;
-    padding-top: 124px;
-    padding-bottom: 170px;
+    padding: 124px 0 170px;
     grid-template-columns: 1fr 1fr;
 }
 .product-content-photo{ 
@@ -374,4 +380,28 @@ a {
     font-family: 'Lato';
     width: 227px;
     height: 65px;
+}
+
+.footer{
+    background-color: #245852;
+}
+.footer img{
+    padding-top: 95px;
+}
+.footer img:hover {
+    cursor: pointer;
+}
+.footer a{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.footer-nav li{
+    padding-top: 60px;
+}
+.footer-nav ul:last-child{
+    padding-bottom: 144px;
 }
