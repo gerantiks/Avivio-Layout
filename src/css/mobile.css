@@ -1,0 +1,258 @@
+@media (max-width:1416px){
+    .container {
+        width: 100%;
+
+    }
+    .h2{
+        width: 100%;
+    }
+    .header-logo {
+        margin-right: 105px;
+    }
+    .header-login{
+        margin-left: 105px;
+    }
+    .content-menu {
+        padding-top: 130px;
+    }
+    .content-menu-headline h2{
+        font-size: 48px;
+        line-height: 130%;
+    }
+    .content-menu-text {
+        max-width: 482px;
+        margin-left: 80px;
+    }
+    .content-steps{
+        grid-column-gap: 50px;
+    }
+    .content-steps01{
+        max-width: 350px;
+        padding-top: 63px;
+    }
+    .content-steps02{
+        max-width: 350px;
+        padding-top: 200px;
+    }
+    .content-steps03{
+        padding-top: 85px;
+        max-width: 350px;
+    }
+
+    .story-content-text{
+        width: 100%;
+        height: 100%;
+    }
+    .story-content{
+        padding-top: 180px;
+        padding-bottom: 100px;
+    }
+    .story-text{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        font-size: 22px;
+        line-height: 130%
+    }
+    .story-content-video{
+        padding-left: 0px;
+    }
+    .story-head {
+        display: inline-block;
+        font-size: 45px;
+        line-height: 150%;
+    }
+    .story-content-text{
+        width: 60%;
+    }
+    .story-video {
+        object-fit: contain;
+    }
+    .product-content{
+        padding: 100px 0 140px;
+    }
+    .product-minilist{
+        position: absolute;
+        bottom: 90px;
+        left: 5px;
+        width: 270px;
+        height: 270px;
+    }
+    .product-main-text h2 {
+        width: 100%;
+        font-size: 45px;
+        line-height: 150%;
+    }
+}
+
+@media (max-width: 1200px){
+    .body{
+        font-size: 18px;
+    }
+    .header-logo{
+        margin-right: 80px;
+    }
+    .header-nav a{
+        font-size: 18px;
+    }
+    .header-nav li{
+        margin-right: 45px;
+    }
+    .header-login {
+        margin-left: 60px;
+    }
+    .header-login a {
+        margin-right: 30px;
+        font-size: 18px;
+    }
+    .header button{
+        width: 170px;
+        height: 50px;
+    }
+
+    .content-steps{
+        grid-column-gap: 30px;
+    }
+    .content-steps01, .content-steps02, .content-steps03{
+        max-width: 300px;
+    }
+    .content-menu-phrase {
+        display: block;
+        margin: 0 auto;
+    }
+    .content-menu-headline{
+        display: block;
+        margin: 0 auto;
+    }
+    .content-menu-text{
+        padding-top: 30px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .story-content{
+        flex-direction: column-reverse;
+    } 
+    .story-content-text{
+        margin-top: 50px;
+    }
+    .story-content-video{
+        max-width: 770px;
+        height: 470px;
+    }
+    .product-minilist{
+        bottom: 93px;
+        left: 5px;
+        width: 250px;
+        height: 260px;
+    }
+}
+
+@media (max-width:992px){
+    .header{
+        padding: 10px 0 10px;
+    }
+    .header-nav, .header-login{
+        display: none;
+    }
+    .home{
+        min-height: 700px;
+    }
+    .home-content h1{
+        font-size: 55px;
+
+    }
+    .home-background{
+        opacity: 75%;
+    }
+    .content-steps{
+        grid-template-columns: auto;
+    }
+
+    .content-steps01,
+    .content-steps02,
+    .content-steps03 {
+        max-width: 390px;
+        align-self: center;
+        justify-self: center;
+        padding-top: 75px;
+    }
+
+    .story-content{
+        padding: 130px 0 70px;
+    }
+    .story-video-container {
+        height: 340px
+    }
+    .story-content-video {
+        height: 340px;
+    }
+    .story-content-text h2{
+        max-width: 450px;
+        font-size: 40px;
+    }
+    .story-text {
+        font-size: 20px;
+        padding: 20px 0 20px;
+    }
+    .product-cardphoto{
+        max-width: 590px;
+        max-height: 459px;
+    }
+    .product-content{
+        padding: 70px 0 110px;
+        grid-column-gap: 35px
+    }
+    .product-minilist{
+        bottom: 65px;
+        left: 6px;
+        width: 190px;
+        height: 200px;
+    }
+    .product-cardphoto img {
+        height: 100%;
+    }
+    .product-miniitem {
+        margin-top: 5px;
+        font-size: 12px;
+        line-height: 130%;
+        text-align: center;
+    }
+    .line{
+        padding-top: 7px;
+    }
+    .product-minitext {
+        text-align: center;
+    }
+    .product-minilist img {
+        margin-top: 7px;
+    }
+    .product-minitext li {
+        padding-bottom: 5px;
+    }
+    .product-minitext h3 {
+        font-size: 12px;
+        line-height: 130%;
+        padding-bottom: 7px;
+    }
+    .product-main-text-item {
+        margin-bottom: 10px;
+    }
+    .product-main-text h2 {
+        width: 100%;
+        font-size: 40px;
+        line-height: 130%;
+    }
+    .footer a {
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .footer-nav ul:last-child {
+        padding-bottom: 110px;
+    }
+    .footer img {
+        padding-top: 60px;
+    }
+    .footer-nav li {
+        padding-top: 40px;
+    }
+}
