@@ -1,5 +1,7 @@
 
+/* Основные стили  */
 body {
+    
     font-size: 20px;
     font-family: Lato, sans-serif;
 
@@ -56,7 +58,9 @@ a {
     color: #292929;
 
 }
-
+.MobiHeader {
+    display: none;
+}
 .header {
     border-bottom: 1px solid #D6D6D6;
 }

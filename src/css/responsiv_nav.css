@@ -1,0 +1,103 @@
+ /* Адаптивная шапка у виде випадающего меню при размере до 991px */
+ @media(max-width: 991px) {
+    .no-scroll {    /* Отвечает за скрол в адаптивном меню, для body */
+            overflow: hidden;
+        }
+    .MobiHeader {
+        display: none; /* Изначально меню не будет отображаться  */
+        position: fixed;
+        z-index: 99;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items:center;
+        background-color: rgb(245, 247, 246);
+        padding:15px 0;
+
+    }
+    .MobiHeader.active { /* если дадим меню класс active, будет отображаться  */
+        display: flex;
+    }
+
+    /* Стилизация и анимация кнопки бургер */
+    .MobiHeader-login{
+        display: flex;
+        flex-direction: column;
+        align-items:center
+    }
+    .MobiHeader-login a {
+        padding-bottom: 20px;
+    }
+
+    .MobiHeader-list li{
+        font-size: 20px;
+        padding: 10px;
+    }
+
+
+    .mobile-nav-button {
+        cursor: pointer;
+        border: none;
+        background: transparent;
+        position: absolute;
+        right: 15px;
+        top: 0;   
+        z-index: 999;
+        width: 40px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mobile-nav-button_icon {
+        display: block;
+        position: relative;
+        width: 40px;
+        height: 5px;
+        background-color: #01996D;
+    }
+
+    .mobile-nav-button_icon::after, .mobile-nav-button_icon::before {
+        position: absolute;
+        content: '';
+        width: 40px;
+        height: 5px;
+        background-color: #01996D;
+        /* Анимация закрытия  */
+        transition: transform 0.15s easy-in, top 0.15s easy-in 0.15s;
+    }
+
+    .mobile-nav-button_icon::before {
+        left: 0;
+        top: -10px;
+    }
+
+    .mobile-nav-button_icon::after {
+        left: 0;
+        top: 10px;
+    }
+
+    /* Активация кнопки */
+    .mobile-nav-button_icon.active {
+        background-color: transparent;
+    }
+
+    .mobile-nav-button_icon.active::before {
+        transform: rotate(45deg);
+        top: 0;
+        /* Анимация открытия поворот елемента */
+        transition: top 0.15s linear, transform 0.15s easy-in 0.15s;
+
+    }
+
+    .mobile-nav-button_icon.active::after {
+        transform: rotate(-45deg);
+        top: 0;
+        /* Анимация открытия поворот елемената */
+        transition: top 0.15s linear, transform 0.15s easy-in 0.15s;
+
+    }
+
+ }

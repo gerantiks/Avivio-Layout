@@ -9,11 +9,26 @@
     <link rel="stylesheet" href="src/fonts/Lato/stylesheet.css">
     <link rel="stylesheet" href="src/fonts/Georgia/stylesheet.css">
     <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsiv_nav.css">
     <link rel="stylesheet" href="src/css/mobile.css">
     
  </head>
 <body>
-    <script src="./src/js/test.js"></script>
+    <div class="MobiHeader"> <!-- меню навигации, появиться при разширенни меньше 992px -->
+        <div class="MobiHeader-logo">
+            <img src="src/img/Logo/Logo.png" alt="logo">
+        </div>
+        <ul class="MobiHeader-list">
+            <li><a href="#">Why Alivio</a></li>
+            <li><a href="#">Solutions</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">Pricing</a></li>
+        </ul>
+        <div class="MobiHeader-login">
+            <a href="#"> Sign in </a>
+            <button> Start trial </button>
+        </div>
+    </div>
     <header class="header">
         <div class="container">
             <a class="header-logo" href="#">
@@ -21,7 +36,7 @@
             </a>
             <nav class="header-nav">
                 <ul>
-                    <li><a href="https://webref.ru/layout/html5-css3/link/decoration">Why Alivio</a></li>
+                    <li><a href="#">Why Alivio</a></li>
                     <li><a href="#">Solutions</a></li>
                     <li><a href="#">Community</a></li>
                     <li><a href="#">Pricing</a></li>
@@ -30,6 +45,10 @@
             <div class="header-login">
                 <a href="#"> Sign in </a>
                 <button> Start trial </button>
+            </div>
+            <!-- Кнопка бургер при адаптации навигации -->
+            <div class="mobile-nav-button">
+                <span class="mobile-nav-button_icon"></span>
             </div>
         </div>
     </header>
@@ -148,6 +167,7 @@
                 </nav>
             </div>
         </footer>
+        <script src="src/js/main.js"></script>
     </main>
 </body>
 </html>

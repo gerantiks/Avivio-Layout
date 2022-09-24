@@ -1,3 +1,4 @@
+/* Адаптив сайта под разные разширения */ 
 @media (max-width:1416px){
     .container {
         width: 100%;
@@ -149,6 +150,7 @@
 
 @media (max-width:992px){
     .header{
+        position: relative;
         padding: 10px 0 10px;
     }
     .header-nav, .header-login{
